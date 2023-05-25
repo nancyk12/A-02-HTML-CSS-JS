@@ -1,4 +1,4 @@
-.main-page {
+/* .main-page {
     position: relative;
     font-family: Helvetica, sans-serif;
     display: flex;
@@ -17,7 +17,7 @@
     width: 334px;
     height: 718px;
     /* Inside auto layout */
-    flex: none;
+    /* flex: none;
     order: 0;
     flex-grow: 0;
     box-sizing: border-box;
@@ -26,11 +26,11 @@
     width: 334px;
     height: 718px;
     left: 0px;
-    top: 0px;
+    top: 0px; */
 
 /* Gray 1 */
 
-border: 1px solid #333333;
+/* border: 1px solid #333333;
 }
 
 header {
@@ -59,14 +59,18 @@ header {
 
 .menu { 
     position: absolute;
-    width: 46px;
-    height: 14px;
+    width: 39px;
+    height: 17px;
     left: 261px;
-    top: 14px;
+    top: 12px;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 17px; */
+    /* identical to box height */
+
+    /* display: flex;
+    align-items: center;
     
 }
 
@@ -83,11 +87,11 @@ header {
     width: 63px;
     height: 18px;
     left: 33px;
-    top: 78px;
+    top: 78px; */
     /* Gray 6 */
-    background: #F2F2F2;
+    /* background: #F2F2F2; */
     /* Gray 4 */
-    border: 1px solid #BDBDBD;
+    /* border: 1px solid #BDBDBD;
     border-radius: 2px;
 }
 
@@ -111,9 +115,9 @@ header {
     height: 18px;
     left: 257px;
     top: 80px;
-    /* Gray 6 */
+   
     background: #F2F2F2;
-    /* Gray 4 */
+   
     border: 1px solid #BDBDBD;
     border-radius: 2px;
 }
@@ -141,8 +145,7 @@ header {
     font-weight: 700;
     font-size: 12px;
     line-height: 14px;
-    /* identical to box height */
-
+   
     display: flex;
     align-items: center;
 }
@@ -163,7 +166,6 @@ header {
     left: 44px;
     top: 136px;
 
-    /* Yellow */
 
     border: 1px solid #F2C94C;
     border-radius: 17px;
@@ -176,6 +178,54 @@ header {
     height: 13px;
     left: 62px;
     top: 154px;
-    /* Yellow */
+ 
     background: #F2C94C;
-}
+} */ 
+@import url('https://fonts.googleapis.com/css2?family=Helvetica&display=swap');
+
+.header {
+    background-color: #D74532;
+    font-family: 'Helvetica', sans-serif, bold;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  
+  .counter {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .stars-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .star-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f2f2f2; 
+    border: 1px solid #F2C94C; 
+    border-radius: 17px; 
+    font-size: 0;
+  }
+  
+  .star-icon {
+    font-size: 24px;
+    color: #F2C94C; /* Hex code for the star icon color */
+  }
