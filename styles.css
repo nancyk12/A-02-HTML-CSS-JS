@@ -35,9 +35,14 @@
   }
   
   .stars-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center; 
+    grid-column-gap: 0px;
     margin-top: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .star-box {
@@ -50,6 +55,8 @@
     border: 1px solid #F2C94C; 
     border-radius: 17px; 
     font-size: 0;
+    margin: 5px 1px;
+   
   }
   
   .star-icon {
