@@ -8,7 +8,7 @@ function updateCount() {
   countElement.textContent = count;
   starsContainer.innerHTML = "";
 
-  for (var i = 0; i < count; i++) {
+  for (let i = 0; i < count; i++) {
     let starBox = document.createElement("div");
     starBox.className = "star-box";
     starBox.innerHTML = '<i class="fas fa-star star-icon"></i>';
